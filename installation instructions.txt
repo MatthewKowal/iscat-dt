@@ -1,0 +1,32 @@
+Installing all of this together can be troublesome
+you must install numpy before installing deeptrack!
+tensorflow has version issues with tensorflow-addons and tensorflow-probability
+
+
+
+method 3 - testing now
+conda create -n deeptrack2 python=3.11.7
+conda install numpy
+pip install tensorflow==2.15.0
+pip install deeptrack
+pip install tensorflow-probability==0.23.0
+pip install opencv-python
+conda install spyder
+*this one sort of works.... not sure yet
+
+method 2 - testing now
+conda create -n deeptrack python=3.11.7
+conda install numpy
+pip install deeptrack
+pip install tf-keras
+pip install opencv-python
+pip install spyder
+*works so far but i get a lot of warnings when it loads
+
+method 1 - DOES NOT WORK
+conda create -n deeptrack python=3.11.7
+pip install deeptrack
+pip install tf-keras
+pip install opencv-python
+pip install python-resources
+** this did not work
